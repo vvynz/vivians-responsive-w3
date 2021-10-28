@@ -95,3 +95,21 @@ p {
   padding: 15px 20px;
   border-radius: 4px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px !important;
+  }
+  h2 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
